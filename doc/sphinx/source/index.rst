@@ -14,11 +14,14 @@ Table des matières
    c00_introduction/p00s00_index
    c01_create_and_publish_doc/p01s00_index
    c02_first_ros2_project_pimped/p02s00_index
+   c03_test_your_code/p03s00_index
+   c04_collaborate_with_coders/p04s00_index
 
 .. toctree:: 
    :maxdepth: 3
-   :caption: Travaux Pratiques
+   :caption: Travaux Pratiques - CHUNE / DRUART
 
+   Introduction/Intro
    p00_pentograph_pencil_holder_with_rpi_and_dynamixel/p50s00_index
    p01_rpi_ubuntu_as_a_ros2_robotic_platform/p51s00_index
 

@@ -2,6 +2,7 @@
 Description du matériel de la plateforme pantographe
 #####################################################
 
+test
 * ROM :
 ADATA LEGEND 700
 https://www.adata.com/en/consumer/category/ssds/solid-state-drives-legend-700/?tab=description
