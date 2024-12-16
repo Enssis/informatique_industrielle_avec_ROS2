@@ -1,5 +1,5 @@
 ####################
-Ubuntu & RPi & ROS2 
+Ressources 
 ####################
 
 .. toctree::
