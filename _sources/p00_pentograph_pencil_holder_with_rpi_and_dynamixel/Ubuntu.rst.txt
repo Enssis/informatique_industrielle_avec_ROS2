@@ -16,7 +16,8 @@ Nous allons utiliser **rpi imager** pour installer **Ubuntu**. Puisque nous util
 En lançant Rasberry Pi Imager, la fenêtre suivante apparaît :
 
 .. figure:: resources/img/rpi_imager.png
-    :width: 75%
+    :width: 100%
+    :align: center
 
 Il faut alors choisir la bon appareil (**Rasberry Pi 5**), l'OS que l'on veut installer (**Ubuntu version 24.04**) et l'espace de stockage (**Par défaut**).
 
