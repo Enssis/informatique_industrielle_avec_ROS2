@@ -20,7 +20,7 @@ Le montage s'effectue de la manière suivante :
 
 2. Assembler la **RasberryPI5** sur la **base NVMe**
 
-.. note:: Pour plus de détail, suivre la partie Putting it Together de ce tutoriel_
+.. note:: Les étapes 1.2, 1.3 et 2. sont détaillées dans la partie Putting it Together de ce tutoriel_
 
 .. _tutoriel: https://learn.pimoroni.com/article/getting-started-with-nvme-base
 
