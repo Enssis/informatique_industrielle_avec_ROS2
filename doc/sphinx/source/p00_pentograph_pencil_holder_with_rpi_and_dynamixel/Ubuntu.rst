@@ -2,11 +2,11 @@
 Installation d'Ubuntu sur le Rasberry Pi 5
 ###################################################
 
-Pour installer **Ubuntu** sur le RasberryPi 5, Nous avons à notre disposition une **carte SD** contenant l'OS RasberryPi que nous allons utiliser dans un premier temps.
+Pour installer **Ubuntu** sur le Rasberry Pi 5, Nous avons à notre disposition une **carte SD** contenant l'OS Rasberry Pi que nous allons utiliser dans un premier temps.
 
-Nous avons aussi du matériel informatique tel qu'un écran, une souris et un clavier pour pouvoir naviguer dans le RasberryPi.
+Nous avons aussi du matériel informatique tel qu'un écran, une souris et un clavier pour pouvoir naviguer dans le Rasberry Pi 5.
 
-Nous allons utiliser **rpi imager** pour installer **Ubuntu**. Puisque nous utilisons l'OS RasberryPi, il faut entrer la commande suivante pour pour installer **pri imager** :
+Nous allons utiliser **rpi imager** pour installer **Ubuntu**. Puisque nous utilisons l'OS RasberryPi, il faut entrer la commande suivante pour pour installer **rpi imager** (Rasberry Pi Imager) :
 
 .. code-block:: bash
 
@@ -17,13 +17,13 @@ En lançant Rasberry Pi Imager, la fenêtre suivante apparaît :
 
 .. figure:: resources/img/rpi_imager.png
 
-Il faut alors choisir la bon appareil (**Rasberry Pi 5**), l'OS quel'on veut installer (**Ubuntu**) et l'espace de stockage (**Par défaut**).
+Il faut alors choisir la bon appareil (**Rasberry Pi 5**), l'OS que l'on veut installer (**Ubuntu version 24.04**) et l'espace de stockage (**Par défaut**).
 
 .. note::
 
     Pour plus de détails, voir cette documentation_.
 
-Après quelques minutes (ou heures en fonction de la connexion), il faut redémarrer. La Rasberry Pi devrait alors boot en **Ubuntu**.
+Après quelques minutes (ou heures en fonction de la connexion), il faut redémarrer. La Rasberry Pi devrait alors booter en **Ubuntu**.
 
 .. note:: 
 
@@ -34,7 +34,7 @@ Après quelques minutes (ou heures en fonction de la connexion), il faut redéma
         sudo apt-get install gparted
         sudo gparted
 
-    Cependant, il s'est avéré après coup que la partition n'a pas fonctionné
+    Cependant, il s'est avéré après coup que la partition n'a pas fonctionné.
 
 .. _documentation: https://www.raspberrypi.com/documentation/computers/getting-started.html#raspberry-pi-imager
 
