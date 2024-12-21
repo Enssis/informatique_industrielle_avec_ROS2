@@ -32,6 +32,7 @@ Table des matières
 .. toctree::
    :maxdepth: 2
 
+   RasberryPI
    Ubuntu
    ROS2
    p50s01_material_description
