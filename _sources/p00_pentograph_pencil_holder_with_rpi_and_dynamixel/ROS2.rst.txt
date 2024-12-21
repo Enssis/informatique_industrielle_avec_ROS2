@@ -38,7 +38,7 @@ Voici la liste des commandes à effectuer :
 Après installation, on teste le bon fonctionnement de **ROS2** à l'aide de **TurtleSim** dans un nouveau terminal :
 
 .. figure:: resources/img/TurtleSim.png
-    :width: 75%
+    :width: 50%
     :align: center
 
 .. _documentation: https://ros2docs.robook.org/rolling/Installation/Ubuntu-Install-Debs.html
