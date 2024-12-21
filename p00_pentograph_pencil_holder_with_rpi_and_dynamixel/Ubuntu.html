@@ -103,9 +103,9 @@
              
   <section id="installation-d-ubuntu-sur-le-rasberry-pi-5">
 <h1>Installation d’Ubuntu sur le Rasberry Pi 5<a class="headerlink" href="#installation-d-ubuntu-sur-le-rasberry-pi-5" title="Lien vers cette rubrique"></a></h1>
-<p>Pour installer <strong>Ubuntu</strong> sur le RasberryPi 5, Nous avons à notre disposition une <strong>carte SD</strong> contenant l’OS RasberryPi que nous allons utiliser dans un premier temps.</p>
-<p>Nous avons aussi du matériel informatique tel qu’un écran, une souris et un clavier pour pouvoir naviguer dans le RasberryPi.</p>
-<p>Nous allons utiliser <strong>rpi imager</strong> pour installer <strong>Ubuntu</strong>. Puisque nous utilisons l’OS RasberryPi, il faut entrer la commande suivante pour pour installer <strong>pri imager</strong> :</p>
+<p>Pour installer <strong>Ubuntu</strong> sur le Rasberry Pi 5, Nous avons à notre disposition une <strong>carte SD</strong> contenant l’OS Rasberry Pi que nous allons utiliser dans un premier temps.</p>
+<p>Nous avons aussi du matériel informatique tel qu’un écran, une souris et un clavier pour pouvoir naviguer dans le Rasberry Pi 5.</p>
+<p>Nous allons utiliser <strong>rpi imager</strong> pour installer <strong>Ubuntu</strong>. Puisque nous utilisons l’OS RasberryPi, il faut entrer la commande suivante pour pour installer <strong>rpi imager</strong> (Rasberry Pi Imager) :</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>rpi-imager
 sudo<span class="w"> </span>rpi-imager
 </pre></div>
@@ -114,12 +114,12 @@ sudo<span class="w"> </span>rpi-imager
 <figure class="align-default">
 <img alt="../_images/rpi_imager.png" src="../_images/rpi_imager.png" />
 </figure>
-<p>Il faut alors choisir la bon appareil (<strong>Rasberry Pi 5</strong>), l’OS quel’on veut installer (<strong>Ubuntu</strong>) et l’espace de stockage (<strong>Par défaut</strong>).</p>
+<p>Il faut alors choisir la bon appareil (<strong>Rasberry Pi 5</strong>), l’OS que l’on veut installer (<strong>Ubuntu version 24.04</strong>) et l’espace de stockage (<strong>Par défaut</strong>).</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Pour plus de détails, voir cette <a class="reference external" href="https://www.raspberrypi.com/documentation/computers/getting-started.html#raspberry-pi-imager">documentation</a>.</p>
 </div>
-<p>Après quelques minutes (ou heures en fonction de la connexion), il faut redémarrer. La Rasberry Pi devrait alors boot en <strong>Ubuntu</strong>.</p>
+<p>Après quelques minutes (ou heures en fonction de la connexion), il faut redémarrer. La Rasberry Pi devrait alors booter en <strong>Ubuntu</strong>.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Pour que chaque groupe puisse effectuer les manipulations, nous avons essayer de partitionner l’espace de stockage à l’aide de gparted :</p>
@@ -127,7 +127,7 @@ sudo<span class="w"> </span>rpi-imager
 sudo<span class="w"> </span>gparted
 </pre></div>
 </div>
-<p>Cependant, il s’est avéré après coup que la partition n’a pas fonctionné</p>
+<p>Cependant, il s’est avéré après coup que la partition n’a pas fonctionné.</p>
 </div>
 </section>
 
