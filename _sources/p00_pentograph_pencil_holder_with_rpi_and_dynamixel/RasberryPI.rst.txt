@@ -10,6 +10,18 @@ Le montage s'effectue de la manière suivante :
 
     1.1 - Monter le **ventillateur** sur la **RasberryPI5**
 
-    1.2 - Monter la **carte SSD** sur la base **NVMe**
+    .. note:: Le montage du ventillateur est détaillé dans la documentation_ fournie par Rasberry Pi.
+
+    1.2 - Assembler la **base NVMe**
+
+    1.3 - Monter la **carte SSD** sur la **base NVMe**
+
+    .. note:: Pour la **carte SSD** se monte en deux temps. Il faut d'abord insérer la carte dans son support avant de la plaquer contre la **base NVMe**. Etant fragile, il est conseillé de prendre précontion lors du montage de la **carte SSD**.
 
 2. Assembler la **RasberryPI5** sur la **base NVMe**
+
+.. note:: Pour plus de détail, suivre la partie Putting it Together de ce tutoriel_
+
+.. _tutoriel: https://learn.pimoroni.com/article/getting-started-with-nvme-base
+
+.. _documentation: https://datasheets.raspberrypi.com/cooling/raspberry-pi-active-cooler-product-brief.pdf
