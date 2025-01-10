@@ -32,6 +32,31 @@ Raspberry Pi 5 Active Fan Specifications (datasheetRpiF_ )
 - **Maximum Fan Speed:** 8000 RPM ± 15%  
 - **Product Material:** Anodized Aluminum
 
+NVMe Base Specifications (datasheetNVMe_ )
+=========================================
+
+Adata Legend 700 Specifications (datasheetAL7_ )
+=========================================
+
+- **Capacity:** 256GB
+- **Form factor:** M.2 2280
+- **NAND Flash:** 3D NAND
+- **Dimensions (LxWxH):** 80 x 22 x 3.13mm(with heat sink)
+- **Weight:** 9g (with heat sink)
+- **Interface:** PCIe Gen3 x4
+- **Sequential Read (Max):** Up to 2,000MB/s
+- **Sequential Write (Max):** Up to 1,600MB/s
+- **Operating temperature:** 0°C - 70°C
+- **Storage temperature:** -40°C - 85°C
+- **Shock resistance:** 1500G/0.5ms
+- **MTBF:** 1,500,000 hours
+- **Terabytes Written (TBW):** 480TB
+- **Warranty:** 3-year limited warranty
+
 .. _datasheetRPi5: https://www.raspberrypi.com/products/raspberry-pi-5/
 
 .. _datasheetRPiF: https://www.raspberrypi.com/products/active-cooler/
+
+.. _datasheetNVMe: https://nvmexpress.org/wp-content/uploads/NVM-Express-Base-Specification-Revision-2.1-2024.08.05-Ratified.pdf
+
+.. _datasheetAL7: https://www.adata.com/en/consumer/category/ssds/solid-state-drives-legend-700/?tab=description
