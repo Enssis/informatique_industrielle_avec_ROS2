@@ -53,6 +53,27 @@ Adata Legend 700 Specifications (datasheetAL7_ )
 - **Terabytes Written (TBW):** 480TB
 - **Warranty:** 3-year limited warranty
 
+AX-12A Dynamixel (datasheetDYN_ )
+=========================================
+
+- **Baud Rate:**	7,843 [bps] ~ 1 [Mbps]
+- **Weight:**	AX-12 (53.5 [g]), AX-12+ (53.5 [g]), AX-12A (54.6 [g])
+- **Dimensions:** (W x H x D)	32 X 50 X 40 [mm]
+- **Resolution:**	0.29 [°]
+- **Running Degree:**	0 ~ 300 [°] or Endless Turn
+- **Motor:**	Cored
+- **Gear Ratio:**	254 : 1
+- **Stall Torque:**	1.5 [N.m] (at 12 [V], 1.5 [A])
+- **No Load Speed:**	59 [rev/min] (at 12V)
+- **Operating Temperature**	-5 ~ +70 [°C]
+- **Input Voltage:**	9.0 ~ 12.0 [V] (Recommended : 11.1V)
+- **Command Signal:**	Digital Packet
+- **Physical Connection:**	TTL Level Multi Drop Bus, Half Duplex Asynchronous Serial Communication, (8bit, 1stop, No Parity)
+- **ID:**	254 ID (0~253)
+- **Feedback:**	Position, Temperature, Load, Input Voltage, etc
+- **Gear Material:**	Engineering Plastic(Full)
+- **Case Material:**	Engineering Plastic(Front, Middle, Back)
+
 .. _datasheetRPi5: https://www.raspberrypi.com/products/raspberry-pi-5/
 
 .. _datasheetRPiF: https://www.raspberrypi.com/products/active-cooler/
@@ -60,3 +81,5 @@ Adata Legend 700 Specifications (datasheetAL7_ )
 .. _datasheetNVMe: https://nvmexpress.org/wp-content/uploads/NVM-Express-Base-Specification-Revision-2.1-2024.08.05-Ratified.pdf
 
 .. _datasheetAL7: https://www.adata.com/en/consumer/category/ssds/solid-state-drives-legend-700/?tab=description
+
+.. _datasheetDYN: https://emanual.robotis.com/docs/en/dxl/ax/ax-12a/
