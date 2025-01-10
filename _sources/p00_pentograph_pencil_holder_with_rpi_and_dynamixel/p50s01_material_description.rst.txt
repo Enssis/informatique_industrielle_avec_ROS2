@@ -2,16 +2,36 @@
 Description du matériel de la plateforme pantographe
 #####################################################
 
-test
+Raspberry Pi 5 Specifications (datasheetRPi5_ )
+=========================================
 
-AX-12A - 0.293deg/pulse
+- Broadcom BCM2712 2.4GHz quad-core 64-bit Arm Cortex-A76 CPU, with cryptography extensions, 512KB per-core L2 caches and a 2MB shared L3 cache
+- VideoCore VII GPU, supporting OpenGL ES 3.1, Vulkan 1.2
+- Dual 4Kp60 HDMI® display output with HDR support
+- 4Kp60 HEVC decoder
+- LPDDR4X-4267 SDRAM (2GB, 4GB, 8GB, and 16GB)
+- Dual-band 802.11ac Wi-Fi®
+- Bluetooth 5.0 / Bluetooth Low Energy (BLE)
+- microSD card slot, with support for high-speed SDR104 mode
+- 2 × USB 3.0 ports, supporting simultaneous 5Gbps operation
+- 2 × USB 2.0 ports
+- Gigabit Ethernet, with PoE+ support (requires separate PoE+ HAT)
+- 2 × 4-lane MIPI camera/display transceivers
+- PCIe 2.0 x1 interface for fast peripherals (requires separate M.2 HAT or other adapter)
+- 5V/5A DC power via USB-C, with Power Delivery support
+- Raspberry Pi standard 40-pin header
+- Real-time clock (RTC), powered from external battery
+- Power button
 
-* ROM :
-ADATA LEGEND 700
-https://www.adata.com/en/consumer/category/ssds/solid-state-drives-legend-700/?tab=description
+Raspberry Pi 5 Active Fan Specifications (datasheetRpiF_ )
+=========================================
 
-* NVME BASE
-https://learn.pimoroni.com/article/getting-started-with-nvme-base
+- **Input Voltage:** 5V DC (supplied via 4-pin fan header on Raspberry Pi 5)  
+- **Fan Speed Control:** Pulse Width Modulation (PWM) with tachometer  
+- **Maximum Airflow:** 1.09 CFM (Cubic Feet per Minute)  
+- **Maximum Fan Speed:** 8000 RPM ± 15%  
+- **Product Material:** Anodized Aluminum
 
-* Ventilateur raspbery 
-https://www.raspberrypi.com/products/active-cooler/
+.. _datasheetRPi5: https://www.raspberrypi.com/products/raspberry-pi-5/
+
+.. _datasheetRPiF: https://www.raspberrypi.com/products/active-cooler/
