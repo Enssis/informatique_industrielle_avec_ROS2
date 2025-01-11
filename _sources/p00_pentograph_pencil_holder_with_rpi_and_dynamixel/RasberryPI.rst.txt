@@ -10,13 +10,25 @@ Le montage s'effectue de la manière suivante :
 
     - Monter le **ventillateur** sur la **Rasberry Pi 5**
 
+    .. figure:: resources/img/RASBERRYPIVENTI.jpg
+    :width: 50%
+    :align: center
+
     .. note:: 
     
         Le montage du ventillateur est détaillé dans la documentation_ fournie par Rasberry Pi.
 
     - Assembler la **base NVMe**
 
+    .. note:: 
+
+    Suivre la partie Putting it Together de ce tutoriel_ qui détaille l'assemblage de la **base NVMe**
+
     - Monter la **carte SSD** sur la **base NVMe**
+
+    .. figure:: resources/img/ADATANVMe.jpg
+    :width: 50%
+    :align: center
 
     .. note:: 
     
@@ -26,7 +38,7 @@ Le montage s'effectue de la manière suivante :
 
 .. note:: 
 
-    Pour plus de détails, ce référer à la partie Putting it Together de ce tutoriel_
+    L'assemblage de la **Rasberry Pi 5** sur la **base NVMe** est décrite à la fin de la partie Putting it Together de ce tutoriel_
 
 .. _tutoriel: https://learn.pimoroni.com/article/getting-started-with-nvme-base
 

@@ -21,6 +21,14 @@ En lançant Rasberry Pi Imager, la fenêtre suivante apparaît :
 
 Il faut alors choisir la bon appareil (**Rasberry Pi 5**), l'OS que l'on veut installer (**Ubuntu version 24.04**) et l'espace de stockage (**Par défaut**).
 
+.. figure:: resources/img/RPIubuntu.jpg
+    :width: 50%
+    :align: center
+
+.. figure:: resources/img/RPIADATA.jpg
+    :width: 50%
+    :align: center
+
 .. note::
 
     Pour plus de détails, voir cette documentation_.
@@ -37,6 +45,22 @@ Après quelques minutes (ou heures en fonction de la connexion), il faut redéma
         sudo gparted
 
     Cependant, il s'est avéré après coup que la partition n'a pas fonctionné.
+
+.. figure:: resources/img/partition.jpg
+    :width: 50%
+    :align: center
+
+.. figure:: resources/img/partition2.jpg
+    :width: 50%
+    :align: center
+
+.. figure:: resources/img/partition3.jpg
+    :width: 50%
+    :align: center
+
+.. figure:: resources/img/partition4.jpg
+    :width: 50%
+    :align: center
 
 .. _documentation: https://www.raspberrypi.com/documentation/computers/getting-started.html#raspberry-pi-imager
 
