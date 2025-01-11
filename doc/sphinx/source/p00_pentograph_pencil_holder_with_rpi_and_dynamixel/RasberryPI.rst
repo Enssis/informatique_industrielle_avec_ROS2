@@ -11,8 +11,8 @@ Le montage s'effectue de la manière suivante :
     - Monter le **ventillateur** sur la **Rasberry Pi 5**
 
     .. figure:: resources/img/RASBERRYPIVENTI.jpg
-    :width: 50%
-    :align: center
+        :width: 50%
+        :align: center
 
     .. note:: 
     
@@ -27,8 +27,8 @@ Le montage s'effectue de la manière suivante :
     - Monter la **carte SSD** sur la **base NVMe**
 
     .. figure:: resources/img/ADATANVMe.jpg
-    :width: 50%
-    :align: center
+        :width: 50%
+        :align: center
 
     .. note:: 
     
