@@ -51,3 +51,25 @@ Création du fichier URDF
 =========================
 
 Dans un fichier URDF les modèles 3D sont référencés par des balises ``<mesh>``.
+
+Nous avons tenté de créer le fichier URDF en utilisant les <mesh>. Cependant, rien de s'affiche dans le visualiseur. Nous avons tout de même réglé quelques problèmes avec le code ci-dessous (note : changer l'adresse local en addresse absolue) :
+
+.. code-block:: bash
+
+   <?xml version="1.0"?>
+   <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="pantographe">
+      <link name="base_link">
+         <visual>
+               <geometry>
+                  <mesh filename="package://scara_description/meshes/base.dae" scale="1 1 1"/>
+               </geometry>
+               <origin xyz="0 0 0" />
+         </visual>
+      </link>
+
+      <joint name="base2world" type="fixed">
+      <parent link="world" />
+      <child link="base_link" />
+      </joint>
+
+   </robot>
