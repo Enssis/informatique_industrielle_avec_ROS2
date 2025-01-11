@@ -37,4 +37,5 @@ Table des matières
    ROS2
    p50s01_material_description
    p50s02_mechanical_description
+   Dynamixel
    p50s03_urdf
