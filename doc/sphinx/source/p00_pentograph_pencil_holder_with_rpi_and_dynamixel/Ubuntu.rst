@@ -58,9 +58,6 @@ Après quelques minutes (ou heures en fonction de la connexion), il faut redéma
     :width: 50%
     :align: center
 
-.. figure:: resources/img/partition4.jpg
-    :width: 50%
-    :align: center
 
 .. _documentation: https://www.raspberrypi.com/documentation/computers/getting-started.html#raspberry-pi-imager
 
