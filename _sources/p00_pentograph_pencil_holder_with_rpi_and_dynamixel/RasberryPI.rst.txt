@@ -32,7 +32,7 @@ Le montage s'effectue de la manière suivante :
 
     .. note:: 
     
-        Pour la **carte SSD** se monte en deux temps. Il faut d'abord insérer la carte dans son support avant de la plaquer contre la **base NVMe**. Etant fragile, il est conseillé de prendre précontion lors du montage de la **carte SSD**.
+        La **carte SSD** se monte en deux temps. Il faut d'abord insérer la carte dans son support avant de la plaquer contre la **base NVMe**. Etant fragile, il est conseillé de prendre précontion lors du montage de la **carte SSD**.
 
 #. Assembler la **Rasberry Pi 5** sur la **base NVMe**
 
