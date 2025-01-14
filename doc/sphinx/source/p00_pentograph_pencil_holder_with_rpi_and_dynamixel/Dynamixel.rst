@@ -19,39 +19,31 @@ Préparation des fichiers
 
 Une fois les moteurs et l'U2D2 branchés, il faut préparer les fichiers nécessaires pour contrôler les moteurs. Voici les étapes à suivre :
 
-1. Créez un répertoire pour votre projet :
+#. Créez un répertoire pour votre projet :
    
    .. code-block:: bash
 
       mkdir -p ~/ros2_ws/src
       cd ~/ros2_ws/src
 
-2. Clonez le dépôt contenant les fichiers de configuration et les scripts nécessaires :
+#. Clonez le dépôt contenant les fichiers de configuration et les scripts nécessaires :
 
    .. code-block:: bash
 
       git clone -b $ROS_DISTRO-devel https://github.com/ROBOTIS-GIT/DynamixelSDK
 
-.. note::
-   Si jamais il y a un problème avec la commande précédente, il faut peut être remplacer "$ROS_DISTRO" par votre version de ROS2 qui est installé (jazzy, humble, ...)
+   .. note::
+      Si jamais il y a un problème avec la commande précédente, il faut peut être remplacer "$ROS_DISTRO" par votre version de ROS2 qui est installé (jazzy, humble, ...)
 
 
-3. Compilez le workspace ROS 2 :
-
-   .. code-block:: bash
-
-      cd ~/ros2_ws
-      colcon build --symlink-install
-
-4. Sourcez le setup du workspace :
+#. Compilez le workspace ROS 2 :
 
    .. code-block:: bash
 
       cd ~/ros2_ws
-      source /opt/ros/<version_ros>/setup.bash
-      . install/local_setup.bash
+      ros2_build
 
-5. Vérifier la connection au port USB et ajouter la permission
+#. Vérifier la connection au port USB et ajouter la permission
 
    .. code-block:: bash
 
@@ -60,6 +52,7 @@ Une fois les moteurs et l'U2D2 branchés, il faut préparer les fichiers nécess
 
 .. note:: 
    Pour trouver votre compte linux vous pouvez utiliser la commande :
+
    .. code-block:: bash
 
          whoami
@@ -114,7 +107,7 @@ Si ce n'est pas fait il faut d'abord sourcer le projet et le rebuild  :
 .. code-block:: bash
 
    cd ~/robotis_ws && source install/setup.bash
-   colcon build --symlink-install
+   ros2_build
    
 
 Ensuite il faut faire la fin du tutoriel_ (les commandes sont écrite en dessous )
@@ -122,7 +115,7 @@ Ensuite il faut faire la fin du tutoriel_ (les commandes sont écrite en dessous
 Lancer la node :
 
 .. code-block:: bash
-   
+
    ros2 run dynamixel_sdk_examples read_write_node
 
 Dans un autre terminal on peut communiquer avec les moteurs en utilisant les commandes suivantes :
