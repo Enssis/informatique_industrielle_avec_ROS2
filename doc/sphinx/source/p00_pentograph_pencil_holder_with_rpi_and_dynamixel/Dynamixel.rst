@@ -122,15 +122,18 @@ Ensuite il faut faire la fin du tutoriel_ (les commandes sont écrite en dessous
 Lancer la node :
 
 .. code-block:: bash
+   
    ros2 run dynamixel_sdk_examples read_write_node
 
 Dans un autre terminal on peut communiquer avec les moteurs en utilisant les commandes suivantes :
 
 .. code-block:: bash
+
    # commande le moteur 1 à la position 1000
    ros2 topic pub -l /set_position dynamixel_sdk_custom_interfaces/SetPosition "{id: 1, position: 1000}"
 
 .. code-block:: bash
+
    # récupérer la position du moteur 2
    ros2 service call /get_position dynamixel_sdk_custom_interfaces/srv/GetPosition "id: 2"
 
