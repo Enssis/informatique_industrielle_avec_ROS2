@@ -209,7 +209,18 @@ colcon<span class="w"> </span>build<span class="w"> </span>--symlink-install
 </div>
 <p>Ensuite il faut faire la fin du <a class="reference external" href="https://www.youtube.com/watch?v=E8XPqDjof4U">tutoriel</a> (les commandes sont écrite en dessous )</p>
 <p>Lancer la node :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ros2<span class="w"> </span>run<span class="w"> </span>dynamixel_sdk_examples<span class="w"> </span>read_write_node
+</pre></div>
+</div>
 <p>Dans un autre terminal on peut communiquer avec les moteurs en utilisant les commandes suivantes :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># commande le moteur 1 à la position 1000</span>
+ros2<span class="w"> </span>topic<span class="w"> </span>pub<span class="w"> </span>-l<span class="w"> </span>/set_position<span class="w"> </span>dynamixel_sdk_custom_interfaces/SetPosition<span class="w"> </span><span class="s2">&quot;{id: 1, position: 1000}&quot;</span>
+</pre></div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># récupérer la position du moteur 2</span>
+ros2<span class="w"> </span>service<span class="w"> </span>call<span class="w"> </span>/get_position<span class="w"> </span>dynamixel_sdk_custom_interfaces/srv/GetPosition<span class="w"> </span><span class="s2">&quot;id: 2&quot;</span>
+</pre></div>
+</div>
 </section>
 </section>
 
